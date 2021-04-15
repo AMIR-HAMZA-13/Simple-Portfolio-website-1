@@ -1,3 +1,85 @@
 body{
-    background-color: rgb(134, 126, 115);
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    height: 600px;
+}
+p{
+    font-size: larger;
+    color: rgb(77, 77, 67);
+}
+h1{
+    font-size: 35px;
+}
+#jack-smith-name{
+    font-size: 40px;
+    color:rgb(250, 33, 185) ;
+    font-weight: bold;
+}
+.button-style{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(255, 122, 188), rgb(143, 58, 177));
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-family: 700;
+}
+a:hover {
+    color:blue; 
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-left: 2%;
+
+}
+.half-width img{
+    height: 450px;
+    margin-left: 7%;
+}
+#headder{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+   
+}
+#byography{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+
+}
+.last-work{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.last-work-float img{
+width: 30%;
+height: 400px;
+float: left;
+padding-left: 2.5%;
+box-shadow: 10px 10px 40px gray ;
+border-radius: 10px;
+}
+.last-work-float img:hover{
+box-shadow: 0 20px 40px rgb(230, 46, 46);
+}
+#last-work-section{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+.clien-div{
+    text-align: center;
+}
+#Leave-para{
+    color: white;
+}
+footer{
+    text-align: center;
+}
+#clint-section{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
 }
